@@ -11,7 +11,7 @@ This project is a repo to the audited mappings (see `data/humanInferences.csv`) 
 
 
 ## Formal mapping ##
-*SchemaOrg* [is a RDF vocabulary](http://lov.okfn.org/dataset/lov/vocabs) and *Wikidata* is an ontology-database, a borader "formal representation of the knowledge by a set of concepts and the relationships between those concepts"[wikipedia](https://en.wikipedia.org/wiki/Ontology_(information_science)). The mappings can be expressed by RDF, **examples**:
+*SchemaOrg* [is a RDF vocabulary](http://lov.okfn.org/dataset/lov/vocabs) and *Wikidata* is an ontology-database, a broader "formal representation of the knowledge by a set of concepts and the relationships between those concepts",[wikipedia](https://en.wikipedia.org/wiki/Ontology_(information_science)). The mappings can be expressed, in the *SchemaOrg* side, by [RDFa](https://en.wikipedia.org/wiki/RDFa#HTML.2BRDFa), **examples**:
 
 * http://schema.org/Organization  is `owl:equivalentClass`  to *[Q43229](https://www.wikidata.org/wiki/Q43229)*.
 
