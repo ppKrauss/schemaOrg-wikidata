@@ -1,0 +1,56 @@
+{
+  "name": "schemaOrg-Wikidata",
+  "title": "Enhances any schema_org_rdfa.html with the current schemaOrg-Wikidata relations of the humanInferences.csv spreadsheet.",
+  "format": "csv",
+  "datapackage_version": "1.0-beta.2",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "name": "Public Domain Dedication and License",
+      "version": "1.0",
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "current schema_org_rdfa",
+      "web": "http://schema.org/docs/schema_org_rdfa.html"
+    },
+    {
+      "name": "current Wikidata-ID spreadsheet",
+      "web": "https://docs.google.com/spreadsheets/d/1KeTSrVjSHRfVRwSgg6-LN0pu6nVre7cspUrkf_gfMm8/"
+    },
+  ],
+
+  "resources": [
+     {
+      "url": "https://github.com/ppKrauss/getlex/master/data/humanInferences.csv",
+      "path": "data/humanInferences.csv",
+      "date": "2015-04-15",
+      "schema": {"fields": [
+		  {
+		    "name": "WikidataID",
+		    "description": "Wikidata identifier (ex. Q35120)",
+		    "type": "string"
+		  },
+		  {
+		    "name": "isSub",
+		    "description": "is-subset flag",
+		    "type": "boolean"
+		  },
+		  {
+		    "name": "Label",
+		    "description": "The label of the item (ex. Thing)",
+		    "type": "string"
+		  }
+	]}
+     }
+
+   ],
+
+  "maintainers":[{
+    "name": "PPKRAUSS",
+    "web": "https://github.com/ppKrauss/schemaOrg-wikidata"
+  }]
+}
