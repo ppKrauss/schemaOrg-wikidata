@@ -1,13 +1,13 @@
 SchemaOrg-Wikidata 
 ==================
 
-"[Schema.Org](http://www.Schema.Org) should have mappings to [Wikidata](https://www.wikidata.org) terms where possible": this is the recommendation expressed in [Git-SchemaOrg's issue #280](https://github.com/schemaorg/schemaorg/issues/280).
+*"[Schema.Org](http://www.Schema.Org) should have mappings to [Wikidata](https://www.wikidata.org) terms where possible"*: this is the recommendation expressed in [Git-SchemaOrg's issue #280](https://github.com/schemaorg/schemaorg/issues/280).
 
 In order to comply with this recommendation, most of the mapping work must be performed "by humans", can't be automated.
 
 The semantic of each SchemaOrg item is expressed by the item's descriptor (`rdfs:comment`) and tradition of use of the item in the SchemaOrg community. Each Wikidata-SchemaOrg map must be audited and confirmed by humans of the SchemaOrg community.
 
-This project is a repo to the audited mappings (see `humanInferences.csv`) and a simple parser that enhance any version of the [schema_org_rdfa.html](http://schema.org/docs/schema_org_rdfa.html) definition with the mappings. 
+This project is a repo to the audited mappings (see `data/humanInferences.csv`) and a simple parser that enhance any version of the [schema_org_rdfa.html](http://schema.org/docs/schema_org_rdfa.html) definition with the mappings. 
 
 
 ## Formal mapping ##

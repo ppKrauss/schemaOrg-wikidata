@@ -2,7 +2,7 @@
   "name": "schemaOrg-Wikidata",
   "title": "Enhances any schema_org_rdfa.html with the current schemaOrg-Wikidata relations of the humanInferences.csv spreadsheet.",
   "format": "csv",
-  "datapackage_version": "1.0-beta.2",
+  "datapackage_version": "1.0",
   "licenses": [
     {
       "id": "odc-pddl",
@@ -25,7 +25,7 @@
 
   "resources": [
      {
-      "url": "https://github.com/ppKrauss/getlex/master/data/humanInferences.csv",
+      "url": "https://github.com/ppKrauss/schemaOrg-wikidata/master/data/humanInferences.csv",
       "path": "data/humanInferences.csv",
       "date": "2015-04-15",
       "schema": {"fields": [
