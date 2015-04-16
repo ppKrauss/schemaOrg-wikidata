@@ -26,4 +26,6 @@ These equivalences was expressed in the table (spreadsheet) as:
 ...
 
 
+------
 
+... text and DEMO are under construction ...
