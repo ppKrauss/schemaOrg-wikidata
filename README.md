@@ -3,7 +3,7 @@ SchemaOrg-Wikidata
 
 *"[Schema.Org](http://www.Schema.Org) should have mappings to [Wikidata](https://www.wikidata.org) terms where possible"*: this is the recommendation expressed in [Git-SchemaOrg's issue #280](https://github.com/schemaorg/schemaorg/issues/280).
 
-In order to comply with this recommendation, most of the mapping work must be performed "by humans", can't be automated.
+In order to comply with this recommendation, most of the mapping work must be performed "by humans", can't be automated. The "human interface" of this project is **[this GoogleDoc spreadsheet](https://docs.google.com/spreadsheets/d/1KeTSrVjSHRfVRwSgg6-LN0pu6nVre7cspUrkf_gfMm8/), any one can edit (!)**. Each month we check and transform the spreadsheet into a [simplifyed standard table, `data/humanInferences.csv`](https://github.com/ppKrauss/schemaOrg-wikidata/blob/master/data/humanInferences.csv).
 
 The semantic of each SchemaOrg item is expressed by the item's descriptor (`rdfs:comment`) and tradition of use of the item in the SchemaOrg community. Each Wikidata-SchemaOrg map must be audited and confirmed by humans of the SchemaOrg community.
 
